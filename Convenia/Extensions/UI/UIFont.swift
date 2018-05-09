@@ -9,9 +9,9 @@
 import UIKit
 
 extension UIFont {
-    
+
     class func system(size: CGFloat, weight: Weight = Weight.regular) -> UIFont {
-        
+
         return self.systemFont(ofSize: size)
     }
 }
